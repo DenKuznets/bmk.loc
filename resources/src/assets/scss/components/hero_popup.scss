@@ -1,0 +1,38 @@
+.hero__popup {
+    max-width: min(823px, 90%);
+    min-width: unset;
+    @media only screen and (max-width: $px1024) {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+
+    h2 {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 48px;
+        text-align: center;
+
+        /* Текст */
+
+        color: #0A001C;
+    }
+
+    p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        /* or 22px */
+
+        text-align: center;
+
+        /* Текст */
+
+        color: #0A001C;
+    }
+
+}

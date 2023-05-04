@@ -1,0 +1,17 @@
+#documents {
+  transform: translateZ(-10px);
+  transform-style: preserve-3d;
+  background-color: #fff;
+}
+
+.documents {
+  transform: translateZ(10px);
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 80px;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}

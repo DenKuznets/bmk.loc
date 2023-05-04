@@ -1,0 +1,26 @@
+#hero {
+    background:radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url('../assets/img/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25%;
+}
+
+.hero {
+    min-height: 600px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    &__text {
+        max-width: 624px;
+        h1{
+            margin-bottom: 35px;
+        }
+        p{
+            margin-bottom: 35px;
+        }
+    }    
+}

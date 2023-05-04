@@ -1,0 +1,73 @@
+.services {
+    padding-top: 70px;
+
+    h2 {
+        margin-bottom: 40px;
+    }
+
+    &__columns {
+        display: flex;
+        gap: 30px;
+
+        @media only screen and (max-width: $services-column) {
+            flex-direction: column;
+        }
+
+        &-left,
+        &-right {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+
+            hr {
+                width: 370px;
+
+                @media only screen and (max-width: $services-column) {
+                    display: none;
+                }
+            }
+        }
+
+        &-left {
+            hr {
+                margin-top: 40px;
+            }
+        }
+
+        &-right {
+            hr {
+                margin-bottom: 40px;
+                align-self: flex-end;
+            }
+        }
+    }
+
+    &__card {
+        position: relative;
+        height: 320px;
+
+        &-image {
+            height: 100%;
+            filter: drop-shadow(5px 5px 10px rgba(46, 96, 201, 0.1));
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+
+        h4 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(5px);
+            border-radius: 0px 0px 10px 10px;
+            padding: 23px 15px;
+        }
+    }
+}

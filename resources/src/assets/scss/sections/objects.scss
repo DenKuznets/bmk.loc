@@ -1,0 +1,53 @@
+.objects {
+    padding-top: 70px;
+
+    h2 {
+        margin-bottom: 40px;
+    }
+
+    &__rows {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        @media only screen and (max-width: $objects-column) {
+            flex-direction: row;
+        }
+
+        @media only screen and (max-width: $px480) {
+            flex-direction: column;
+        }
+
+        &-top,
+        &-bottom {
+            flex: 1;
+            display: flex;
+            gap: 30px;
+
+            @media only screen and (max-width: $objects-column) {
+                flex-direction: column;
+            }
+
+        }
+    }
+
+    &__card {
+
+        &-image {
+            max-width: 370px;
+            height: 250px;
+            filter: drop-shadow(5px 5px 10px rgba(46, 96, 201, 0.25));
+
+            @media only screen and (max-width: $px480) {
+                max-width: unset;
+            }
+
+            img {
+                border-radius: 10px;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
