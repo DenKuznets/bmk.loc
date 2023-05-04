@@ -1,4 +1,5 @@
 const navbar = document.querySelector(".fixedHeader");
+console.log(navbar);
 const mQuery = window.matchMedia("(min-width: 1165px)");
 
 function handleWitdhChange() {

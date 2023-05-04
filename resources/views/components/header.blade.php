@@ -1,4 +1,4 @@
-<header class="">
+<header class="fixedHeader">
     <div class="header ">
         <div class="header__content containers">
             <div class="header__logo">
