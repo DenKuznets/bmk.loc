@@ -1,11 +1,12 @@
 <div id="popupHero" class="modalForm">
     <div class="modal-content-form hero__popup">
         <span class="closeForm">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            {{-- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M9.12485 12.0106L0 2.87786L2.85522 0.0201559L11.9801 9.15293L21.125 0L24 2.87745L14.855 12.0304L23.959 21.1423L21.1038 24L11.9998 14.8881L2.89619 23.9996L0.0212416 21.1221L9.12485 12.0106Z"
                     fill="#C4CDDE" />
-            </svg>
+            </svg> --}}
+            <img src="{{ asset('assets/img/popup-close-btn.svg') }}" alt="">
         </span>       
 
         {{-- мишина форма обратной связи, не удаляй, вдруг понадобится --}}

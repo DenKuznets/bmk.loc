@@ -5,34 +5,21 @@
         margin-bottom: 40px;
     }
 
-    &__rows {
-        display: flex;
-        flex-direction: column;
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 30px;
 
-        @media only screen and (max-width: $objects-column) {
-            flex-direction: row;
+        @media only screen and (max-width: $px768) {
+            grid-template-columns: repeat(2, 1fr);
         }
 
         @media only screen and (max-width: $px480) {
-            flex-direction: column;
-        }
-
-        &-top,
-        &-bottom {
-            flex: 1;
-            display: flex;
-            gap: 30px;
-
-            @media only screen and (max-width: $objects-column) {
-                flex-direction: column;
-            }
-
+            grid-template-columns: repeat(1, 1fr);
         }
     }
 
     &__card {
-
         &-image {
             max-width: 370px;
             height: 250px;
