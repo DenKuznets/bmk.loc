@@ -22,20 +22,19 @@
         val.addEventListener("click", (e) => {
             e.preventDefault();
             switch (e.target.closest("section").id) {
-                case "bath2":
-                case "bath3":
-                    openModal(document.getElementById("bathPopUp"));
+                case "hero":
+                    openModal(document.getElementById("popupHero"));
                     break;
-                case "rooms":
-                    if (e.target.closest(".rooms__card").id === "room1") {
-                        openModal(document.getElementById("room1PopUp"));
-                    } else {
-                        openModal(document.getElementById("room2PopUp"));
-                    }
-                    break;
-                case "laundry":
-                    openModal(document.getElementById("laundryPopUp"));
-                    break;
+                // case "rooms":
+                //     if (e.target.closest(".rooms__card").id === "room1") {
+                //         openModal(document.getElementById("room1PopUp"));
+                //     } else {
+                //         openModal(document.getElementById("room2PopUp"));
+                //     }
+                //     break;
+                // case "laundry":
+                //     openModal(document.getElementById("laundryPopUp"));
+                //     break;
                 default:
                     console.log("no such section");
                     break;
