@@ -39,6 +39,7 @@
         }
 
         hr {
+            max-width: 370px;
             @media only screen and (max-width: $about-column) {
                 display: none;
             }

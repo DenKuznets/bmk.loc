@@ -179,9 +179,11 @@ img {
     background: linear-gradient(93.61deg, #143782 0.2%, #4278EF 100.2%);
     box-shadow: 0px 0px 15px rgba(46, 96, 201, 0.5);
     border-radius: 10px;
-
+    transition: all 0.3s ease;
+    
     &:hover {
-        transform: scale(0.97);
+        background: linear-gradient(93.61deg,#4278EF 100.2%, #143782 0.2%);
+
     }
 }
 
@@ -189,6 +191,4 @@ hr {
     border-bottom: 3px solid #DBA11C;
     margin: 0;
     padding: 0;
-
-
 }

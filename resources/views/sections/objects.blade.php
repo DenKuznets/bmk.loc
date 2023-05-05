@@ -1,5 +1,5 @@
 <section id="objects">
-    <div class="objects containers">
+    <div class="containers objects ">
         <h2>Наши объекты</h2>
         <div class="objects__rows">
             <div class="objects__rows-top">

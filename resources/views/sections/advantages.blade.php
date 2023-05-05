@@ -1,5 +1,5 @@
 <section id="advantages">
-    <div class="advantages containers">
+    <div class="containers advantages">
         <div class="advantages__cards">
 
             <div class="advantages__card">

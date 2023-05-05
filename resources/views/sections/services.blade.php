@@ -1,5 +1,5 @@
 <section id="services">
-    <div class="services containers">
+    <div class="containers services">
         <h2>Наши услуги</h2>
         <div class="services__columns">
             <div class="services__columns-left">

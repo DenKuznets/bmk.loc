@@ -1,5 +1,5 @@
 <section id="partners">
-    <div class="partners containers">
+    <div class="containers partners">
         <h2>Наши партнёры</h2>
         <div class="partners__cards">
             <div class="partners__card">

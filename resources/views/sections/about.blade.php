@@ -1,5 +1,5 @@
  <section id="about">
-     <div class="about containers">
+     <div class="containers about">
          <div class="about__content ">
              <div class="about__text animate__animated">
                  <h2>О компании</h2>

@@ -52,6 +52,12 @@
   border-radius: 10px;
   padding: 17px 35px;
 
+  &:hover {
+    background: linear-gradient(93.61deg, #4278EF 100.2%, #143782 0.2%);
+    border: none;
+    color: white;
+  }
+
   @media (max-width: $navhide) {
     // margin-right: 30%;
     margin: auto;
