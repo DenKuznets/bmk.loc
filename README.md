@@ -2,4 +2,4 @@ https://www.behance.net/yamaky - Аня Сорокина, веб-дизайне�
 
 https://github.com/patap1955/ - Михаил Слободчиков, fullstack-developer
 
-https://laravel.com/api/9.x/ - Laravel 9 API
+https://laravel.com/api/9.x/ - Laravel 10 API
